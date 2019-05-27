@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvMensagem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"
+        android:text="Bem vindo ao fragment 02!" />
+
+    <Button
+        android:id="@+id/btnFragment01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvMensagem"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="48dp"
+        android:text="Fragment 01" />
+
+    <Button
+        android:id="@+id/btnFragment02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/btnFragment01"
+        android:layout_below="@+id/btnFragment01"
+        android:layout_marginTop="29dp"
+        android:text="Fragment 02" />
+
+    <Button
+        android:id="@+id/btnFragment03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/btnFragment02"
+        android:layout_below="@+id/btnFragment02"
+        android:layout_marginTop="33dp"
+        android:text="Fragment 03" />
+
+    <Button
+        android:id="@+id/btnSegundaActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/tvMensagem"
+        android:layout_below="@+id/btnFragment03"
+        android:layout_marginTop="31dp"
+        android:text="Segunda activity" />
+</RelativeLayout>
